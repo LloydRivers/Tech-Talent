@@ -8,8 +8,31 @@ const homeBtn = document.querySelector('.homebtn')
 const batchesBtn = document.querySelector('.batchesbtn')
 const aboutBtn = document.querySelector('.aboutbtn')
 const contactBtn = document.querySelector('.contactbtn')
+const goToContact = document.querySelector('.goToContact')
+const goToContact1 = document.querySelector('.goToContact1')
+const goToContact2 = document.querySelector('.goToContact2  ')
+
+goToContact.addEventListener("click", function(){
+    hero.classList.add('hide')
+    about.classList.add('hide')
+    batches.classList.add('hide')
+    contact.classList.remove('hide')
+})
+goToContact1.addEventListener("click", function(){
+    hero.classList.add('hide')
+    about.classList.add('hide')
+    batches.classList.add('hide')
+    contact.classList.remove('hide')
+})
+goToContact2.addEventListener("click", function(){
+    hero.classList.add('hide')
+    about.classList.add('hide')
+    batches.classList.add('hide')
+    contact.classList.remove('hide')
+})
 
 button.addEventListener("click", function(){
+    
      popup.style.display = "flex"
 })
 
