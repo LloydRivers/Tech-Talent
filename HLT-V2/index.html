@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navContainer">
+        <ul class="left">
+          <li><span class="hoverEffect homebtn">Home</span></li>
+          <li>
+            <span class="hoverEffect batchesbtn">Upcoming Batches</span>
+          </li>
+          <li><span class="hoverEffect aboutbtn">About Us</span></li>
+        </ul>
+        <ul>
+          <li><span class="hoverEffect contactbtn">Contact Us</span></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="container">
+        <div class="hero__text">
+          <h1>
+            Where <span class="blueWord">talent</span> <br />
+            meets tech.
+          </h1>
+          <br />
+          <p>
+            We teach practical skills that fill industry gaps <br />
+            and shape fulfilling <span class="blueWord">careers.</span>
+          </p>
+          <br />
+          <a href="./contact.html" class="button"> I want to learn... </a>
+        </div>
+        <div class="heroImage">
+          <img src="./undraw_programmer_re_owql.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="about hide">
+      <div class="container">
+        <div class="hero__text">
+          <h1>Our <span class="blueWord">Mission.</span></h1>
+          <br />
+          <p class="para-width">
+            To give people the power to share and make the world more open and
+            connected.<br />
+          </p>
+          <br />
+          <p class="para-width">
+            We enable <span class="blueWord">students</span> to break into tech,
+            with tried and tested methods. <br />
+          </p>
+          <br />
+          <a href="./contact.html" class="button"> I want to learn... </a>
+        </div>
+        <div class="heroImage">
+          <img src="./mission.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="batches hide">
+      <div class="container">
+        <div class="hero__text">
+          <h1>Study <span class="blueWord">with</span> us!</h1>
+          <br />
+          <p>London England: December 2021</p>
+          <p>Sydney Australia: January 2022</p>
+          <p>Toronto Canada: February 2022</p>
+          <p>Dublin Ireland: May 2022</p>
+          <br />
+          <a href="./contact.html" class="button"> I want to learn... </a>
+        </div>
+        <div class="heroImage">
+          <img src="./calendar.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="contact hide">
+      <div class="container">
+        <div class="formContainer">
+          <form action="" method="POST" class="form" id="form-1">
+            <h3 class="heading">Get in touch now</h3>
+
+            <div class="spacer"></div>
+
+            <div class="form-group">
+              <input
+                id="fullname"
+                name="fullname"
+                type="text"
+                placeholder="name"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+              <input
+                id="email"
+                name="email"
+                type="text"
+                placeholder="email"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                placeholder="tel"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+              <input
+                id="password_confirmation"
+                name="password_confirmation"
+                placeholder="message"
+                type="password"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+          </form>
+          <a id="button" class="button">Click to submit</a>
+        </div>
+      </div>
+    </div>
+    <footer class="background">
+      <div class="footerIcons">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          target="_blank"
+          href="https://twitter.com/?lang=en-gb"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          target="_blank"
+          href="http://www.google.co.uk"
+          class="fa fa-google"
+        ></a>
+        <a
+          target="_blank"
+          href="http://www.linkedin.com"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          target="_blank"
+          href="http://www.youtube.com"
+          class="fa fa-youtube"
+        ></a>
+        <a
+          target="_blank"
+          href="http://www.instagram.com"
+          class="fa fa-instagram"
+        ></a>
+      </div>
+      <div class="footerText">
+        <p>
+          This website was made by <span class="blueWord">Lloyd</span>:
+          2021&copy;
+        </p>
+      </div>
+    </footer>
+    <div class="popup">
+      <img src="./email.svg" alt="" />
+      <span class="blueWord emailSent"
+        >Thank You. <br />
+        Click anywhere to exit</span
+      >
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
