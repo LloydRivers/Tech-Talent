@@ -313,6 +313,12 @@ footer {
   br {
     display: none;
   }
+  /* Possibly remove */
+  .container {
+    max-width: 100%;
+  }
+
+  /* Possibly remove */
   p {
     font-size: 1rem;
     margin-bottom: 30px;
