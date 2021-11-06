@@ -305,3 +305,79 @@ footer {
 .show {
   display: flex;
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 20px 0px;
+  }
+  .navContainer {
+    justify-content: center;
+    align-items: center;
+    margin: 0 -1em;
+  }
+  .navContainer span {
+    font-size: 15px;
+  }
+  .hero {
+    padding: 50px 0px;
+  }
+  .heroImage {
+    display: none;
+  }
+  .hero__text {
+    width: 95%;
+    text-align: center;
+    animation: fadeIn linear 3s;
+  }
+  .hero__text h1 {
+    font-size: 3rem;
+  }
+  .footerIcons a {
+    font-size: 3rem;
+  }
+  .formContainer {
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    width: 100%;
+    padding: 20px;
+  }
+  .about,
+  .batches,
+  .contact,
+  .hero {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #23424a;
+    padding: 20px;
+  }
+  .hoverEffect::after {
+    height: 0;
+    width: 0;
+  }
+  .para-width {
+    width: 100%;
+  }
+  .batches {
+    padding: 8px;
+  }
+  .batches h1 {
+    font-size: 3rem;
+  }
+  footer {
+    height: 25vh;
+    width: 100%;
+  }
+  .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
