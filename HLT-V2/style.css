@@ -313,7 +313,7 @@ footer {
   .navContainer {
     justify-content: center;
     align-items: center;
-    margin: 0 -1em;
+    margin: 0 -2em;
   }
   .navContainer span {
     font-size: 15px;
