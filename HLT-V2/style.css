@@ -310,6 +310,12 @@ footer {
   header {
     padding: 20px 0px;
   }
+  br {
+    display: none;
+  }
+  p {
+    font-size: 1rem;
+  }
   .navContainer {
     justify-content: center;
     align-items: center;
