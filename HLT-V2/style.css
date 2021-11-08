@@ -331,9 +331,7 @@ footer {
   .navContainer span {
     font-size: 15px;
   }
-  .hero {
-    padding: 50px 0px;
-  }
+
   .heroImage {
     display: none;
   }
@@ -343,7 +341,7 @@ footer {
     animation: fadeIn linear 3s;
   }
   .hero__text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .footerIcons a {
     font-size: 3rem;
@@ -368,7 +366,7 @@ footer {
     justify-content: center;
     color: whitesmoke;
     background-color: #23424a;
-    padding: 20px;
+    padding: 70px 20px;
   }
   .hoverEffect::after {
     height: 0;
