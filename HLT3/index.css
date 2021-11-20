@@ -113,7 +113,7 @@ button:hover {
   display: none;
 }
 .labelsAndInputs input:checked + label::before {
-  background-color: #9f972f;
+  background-color: #fff;
 }
 .genderLabel {
   color: #fff;
