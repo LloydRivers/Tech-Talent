@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2d2b2b;
+  height: auto;
+  min-height: 100%;
+}
+.relative {
+  position: relative;
+}
+form {
+  width: 100%;
+  backdrop-filter: blur(0.8rem);
+  padding: 25px;
+}
+.formContainer {
+  width: 95%;
+  max-width: 850px;
+}
+.container {
+  height: auto;
+  min-height: 100vh;
+  background-image: url("/images/BG3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+fieldset {
+  border: 1px solid grey;
+}
+.flex {
+  display: flex;
+}
+.justify-centre {
+  justify-content: center;
+}
+.align-centre {
+  align-items: center;
+}
+.application-form {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 1px 1px #000;
+  font-size: 3.5rem;
+}
+label {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+  text-shadow: 1px 1px rgba(138, 19, 19, 0.246);
+}
+.block input,
+#country {
+  display: block;
+  background-color: #69a6e751;
+  padding: 12px;
+  width: 100%;
+  border-radius: 7px;
+  border: 2px solid rgba(128, 128, 128, 0.516);
+}
+.block input:hover,
+#country:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+}
+.block {
+  display: block;
+  padding: 10px;
+  border-radius: 7px;
+}
+fieldset {
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  position: relative;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 7px;
+  background-color: #7a4b32d7;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px #000;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+  background-color: #9f972f;
+  color: #7a4b32d7;
+}
+
+.labelsAndInputs label::before {
+  content: "";
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.labelsAndInputs input {
+  display: none;
+}
+.labelsAndInputs input:checked + label::before {
+  background-color: #9f972f;
+}
+.genderLabel {
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.error {
+  display: none;
+  position: absolute;
+  bottom: -15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 1px #000;
+}
+.paddedFieldset {
+  padding-bottom: 10px !important;
+  margin-bottom: 14px !important;
+}
+
+@media (max-width: 760px) {
+  .application-form {
+    font-size: 2rem;
+  }
+}

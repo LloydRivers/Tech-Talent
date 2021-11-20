@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact-Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container flex align-centre justify-centre">
+      <div class="formContainer flex align-centre justify-centre">
+        <form action="" id="webForm">
+          <h1 class="application-form">Application Form</h1>
+          <fieldset class="block">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" type="text" />
+            <span id="errorFullName" class="error">Please enter your name</span>
+          </fieldset>
+          <fieldset class="block">
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+            <span id="errorEmail" class="error">Please enter your Email</span>
+          </fieldset>
+          <fieldset class="block">
+            <label for="mobile">Mobile Number</label>
+            <input id="mobile" type="number" />
+            <span id="errorMobile" class="error"
+              >Please enter your phone number</span
+            >
+          </fieldset>
+          <fieldset>
+            <label for="country">Country</label>
+            <select name="" id="country">
+              <option value="">Select a country</option>
+              <option value="UK">UK</option>
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="Australia">Australia</option>
+            </select>
+            <span class="error"></span>
+          </fieldset>
+          <fieldset class="paddedFieldset">
+            <p class="genderLabel">Gender</p>
+            <div class="labelsAndInputs">
+              <input name="checked" id="male" type="radio" />
+              <label class="flex align-centre" for="male">Male</label>
+              <input name="checked" id="female" type="radio" />
+              <label class="flex align-centre" for="female">Female</label>
+              <span id="radioSpan" class="error">Please select an option</span>
+            </div>
+          </fieldset>
+          <fieldset>
+            <p class="genderLabel">Hobbies <span>optional</span></p>
+            <div class="checked">
+              <input id="sports" type="checkbox" />
+              <label for="sports">Sports</label>
+              <input id="movies" type="checkbox" />
+              <label for="movies">Movies</label>
+              <input id="music" type="checkbox" />
+              <label for="music">Music</label>
+            </div>
+          </fieldset>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
