@@ -16,7 +16,7 @@ body {
 }
 form {
   width: 100%;
-  backdrop-filter: blur(0.8rem);
+  backdrop-filter: blur(1.5rem);
   padding: 25px;
 }
 .formContainer {
