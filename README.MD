@@ -1,2 +1,2 @@
 Software Academy Homework.
-I am currently enrolled in a full-stack software development course aimed.
+I am currently enrolled in a full-stack software development bootcamp.

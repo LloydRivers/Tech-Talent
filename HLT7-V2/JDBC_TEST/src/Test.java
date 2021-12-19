@@ -45,7 +45,7 @@ public class Test {
 			System.out.println("Manager shift : "+result.getString("shift"));
 			System.out.println("Manager salary : "+result.getDouble("salary"));
 		}
-		System.out.println("=====");
+		System.out.println("==");
      
 	}
 
