@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Homework", "root", "ROOT");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Homework", "root", "ROOT-Password");
 		Statement stmt = con.createStatement();
 		// statement + prepared statement (when we pass variable values)
         String preparedQuery ="INSERT INTO Manager values(?,?,?,?)";
