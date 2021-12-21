@@ -1,5 +1,19 @@
 <h2>I am currently enrolled in a 16 week full-stack bootcamp. This repository is home to the assignments I complete every week.</h2>
 
+<h3>Modules include:</h3>
+<ul>
+  <li>Coding Fundamentals</li>
+  <li>Introduction to Object Oriented Programming</li>
+  <li>Introduction to Test Driven Development</li>
+  <li>Introduction to Data Analysis</li>
+  <li>HTML and CSS Fundamentals</li>
+  <li>Introduction to JavaScript</li>
+  <li>Interactive and Responsive Web Design</li>
+  <li>Introduction to Full-Stack Applications</li>
+  <li>Security Fundamentals</li>
+  <li>Agile Foundation (BCS)</li>
+</ul>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/@dad_doeswebdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@dad_doeswebdev" height="30" width="40" /></a>
