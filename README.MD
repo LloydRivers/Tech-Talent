@@ -1,4 +1,4 @@
-<h3 align="center">I am currently enrolled in a 16 week full-stack bootcamp. This repository is home to the assignments I complete every week.</h3>
+<h2>I am currently enrolled in a 16 week full-stack bootcamp. This repository is home to the assignments I complete every week.</h2>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
